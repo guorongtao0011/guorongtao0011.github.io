@@ -10,25 +10,28 @@
 				height: 25px;
 				margin: 0px;
 				padding: 0px;
-				background-color:  bisque;
+				background-color:#F5F5DC;
 				float: right;
+				border-radius: 50px;
+				border: dashed;
 			}
 			..ul li{
 				float: left;
 				margin-left: 100px;
 				margin-top: 12px;
+				border-radius: 50px;
+				border: groove;
 			}
 			.ul li a{
 				text-decoration: none;
 				text-align: center;
 				font-family: "微软雅黑";
 				font-size:large;
+				border-radius: 50px;
 			}
 			.ul li a:hover{
-				background-color: bisque;
-			}
-			.ul li a:active{
-				background-color: beige;
+				background-color:bisque;
+				border-radius: 50px;
 			}
 			.h1{
 				font-family: "楷体";
@@ -65,17 +68,59 @@
 			@media only screen and (min-width: 200px) and (max-width: 500px) {
 				.div1{}
 				.div2{}
+				.div3{}
 			}
-			
+			.searh{
+				margin-left: 600px;
+				width: 300px;
+				height: 30px;
+				border: solid;
+				border-top-left-radius: 100px;
+				border-bottom-left-radius: 100px;
+				float: left;
+			}
+			.buttom{
+				width: 100px;
+				height: 37px;
+				float: left;
+				border: solid;
+				border-left: hidden;
+				border-top-right-radius: 50px;
+				border-bottom-right-radius: 50px;
+				background-color: #F5F5DC;
+			}
+			.div4{
+				width: 100px;
+				height: 50px;
+				float: left;
+			}
+			.aa{
+				text-decoration: none;
+			}
+			.div5{
+				width: 1200px;
+				height: 140px;
+				margin-left: 190px;
+				float: left;
+				margin-top: 60px;
+			}
 		</style>
 	</head>
 	<body style="background-image:url(img/7.jpg);">
+		<div class="div13">
+  				<input placeholder="搜索食物"  autocomplete="off" class="searh"/>
+  		</div>
+  		<div class="div4">
+  				<button class="buttom"><a href="" class="aa">搜索</a></button>
+  			</div>
 		<ul class="ul">
-			<li><a href="">想了解更多点这里</a></li>
+			<li><a href="https://baike.baidu.com/">想了解更多点这里</a></li>
 		</ul>
-		<h1 class="h1" align="center">我的创业计划</h1>
-		<p style="font-size: larger" align="center">创业项目介绍：在湘大这里租家店面开个家乡的粉店。</p>
+		<h1 class="h1" align="center" style="float: left; margin-top: 50px;margin-left: -300px;">特色米粉店</h1>
+		<div class="div5">
+			<p style="font-size: larger" align="center">创业项目介绍：在湘大这里租家店面开个家乡的粉店。</p>
 		<p style="font-size: larger" align="center">先来看几张图片吧！</p>
+		</div>
 		<div class="div1">
 			<img src="img/8.jpg"/ class="img1">
 		</div>
@@ -129,5 +174,6 @@
 			<p align="center" style="font-size: larger;">服务员负责收钱和收拾桌子，不过因为学校内收钱都是微信支付宝，所以其实收钱并不用做什么</p>
 			<p align="center" style="font-size: larger;">当然，顾客还可以在前台根据自己的喜好加一些调料</p>
 		</div>
+		
 	</body>
 </html>
